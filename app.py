@@ -10,10 +10,10 @@ app.secret_key = binascii.hexlify(os.urandom(24)).decode()  # Needed for flash m
 
 # Database configuration
 db_config = {
-    'host': 'freshdb-1.cza66aqeqs40.us-east-1.rds.amazonaws.com',  # Your RDS endpoint
+    'host': 'database-1.cxgkykokavr0.us-east-1.rds.amazonaws.com',  # Your RDS endpoint
     'user': 'admin',  # Your DB username
-    'password': 'freshbasket',  # Your DB password
-    'database': 'fresh'
+    'password': 'Sound143',  # Your DB password
+    'database': 'fresh_basket'
 }
 
 # Connection pool setup
